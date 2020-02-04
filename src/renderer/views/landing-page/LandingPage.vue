@@ -73,7 +73,7 @@
   }
 
   main {
-    display: flex;
+    display: flex !important;
     justify-content: space-between;
   }
 
