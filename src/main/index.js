@@ -15,19 +15,17 @@ const winURL = process.env.NODE_ENV === 'development'
   ? `http://localhost:9080`
   : `file://${__dirname}/index.html`
 
-require('./menu')
-
 function createWindow () {
   /**
    * Initial window options
    */
   mainWindow = new BrowserWindow({
-    width: 960,
-    height: 600,
-    frame: false,
+    width: 1020,
+    height: 630,
     useContentSize: true
   })
 
+  mainWindow.setMenu(null)
   mainWindow.loadURL(winURL)
 
   mainWindow.on('closed', () => {

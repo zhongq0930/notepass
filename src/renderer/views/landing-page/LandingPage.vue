@@ -1,5 +1,5 @@
 <template>
-  <div id="wrapper">
+  <div style="padding: 60px 80px">
     <img id="logo" src="~@/assets/logo.png" alt="electron-vue">
     <main>
       <div class="left-side">
@@ -53,18 +53,6 @@
   }
 
   body { font-family: 'Source Sans Pro', sans-serif; }
-
-  #wrapper {
-    background:
-      radial-gradient(
-        ellipse at top left,
-        rgba(255, 255, 255, 1) 40%,
-        rgba(229, 229, 229, .9) 100%
-      );
-    height: 100vh;
-    padding: 60px 80px;
-    width: 100vw;
-  }
 
   #logo {
     height: auto;
