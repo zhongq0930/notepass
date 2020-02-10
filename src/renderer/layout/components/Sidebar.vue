@@ -27,28 +27,33 @@
                             <span>分组1</span>
                         </span>
                         <a-menu-item key="group1-1">
-                            <a-icon type="folder"/>
+                            <a-icon type="bars" />
                             <span>分组1-1</span>
                         </a-menu-item>
                         <a-menu-item key="group1-2">
-                            <a-icon type="folder"/>
+                            <a-icon type="bars" />
                             <span>分组1-2</span>
                         </a-menu-item>
-                        <a-sub-menu key="sub3" title="Submenu">
-                            <a-menu-item key="7">Option 7</a-menu-item>
-                            <a-menu-item key="8">Option 8</a-menu-item>
-                        </a-sub-menu>
                     </a-sub-menu>
+                    <a-menu-item key="group2">
+                        <a-icon type="bars" />
+                        <span>分组2</span>
+                    </a-menu-item>
+                    <a-menu-item key="group3">
+                        <a-icon type="bars" />
+                        <span>分组3</span>
+                    </a-menu-item>
+
 
                     <a-menu-item key="add-group">
-                        <a-icon type="plus-circle" />
+                        <a-icon type="plus-circle"/>
                         <span>添加分组</span>
                     </a-menu-item>
 
                     <a-menu-divider/>
 
                     <a-menu-item key="deleted">
-                        <a-icon type="delete" />
+                        <a-icon type="delete"/>
                         <span>回收站</span>
                     </a-menu-item>
 
